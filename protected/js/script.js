@@ -33,16 +33,22 @@ $(document).ready(function () {
 
             $(".isPlaying").on("change", e => {
                 let playerId = $(e.currentTarget).data("player-id");
+                let row = $(e.currentTarget).closest("tr");
                 let value = e.currentTarget.checked;
                 
                 if (value) {
                     playersTakingPart.push(playerId);
+                    row.addClass("player-selected");
+                    row.addClass("table-success");
                 } else {
                     const index = playersTakingPart.indexOf(playerId);
 
                     if (index !== -1) {
                         playersTakingPart.splice(index, 1);
                     }
+
+                    row.removeClass("player-selected");
+                    row.removeClass("table-success");
                 }
 
                 generateTeams();
@@ -230,8 +236,8 @@ $(document).ready(function () {
                 const playerA = teamA[i];
                 const playerB = teamB[i];
                 const row = `<tr>
-                    <td>${playerA != undefined ? playerA.username : ''}</td>
-                    <td>${playerB != undefined ? playerB.username : ''}</td>
+                    <td class="table-primary">${playerA != undefined ? playerA.username : ''}</td>
+                    <td class="table-danger">${playerB != undefined ? playerB.username : ''}</td>
                 </tr>`;
                 teamsTableBody.append(row);
             }

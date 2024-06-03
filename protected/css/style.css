@@ -12,3 +12,7 @@
 #reshuffle {
     font-size: 14px;
 }
+
+.player-selected {
+    font-weight: bold;
+}
