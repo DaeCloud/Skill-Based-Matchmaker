@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "firstName": "Ajit",
+    "lastName": "Sawakhande",
+    "username": "Ajit"
+  },
+  {
+    "id": 2,
+    "firstName": "Ashbel",
+    "lastName": "Handiringi",
+    "username": "Ashbel"
+  },
+  {
+    "id": 3,
+    "firstName": "Avishkar",
+    "lastName": "Motheelal",
+    "username": "Avi"
+  },
+  {
+    "id": 4,
+    "firstName": "Benedict",
+    "lastName": "Qhobosheane",
+    "username": "Ben"
+  },
+  {
+    "id": 5,
+    "firstName": "Daelin",
+    "lastName": "Campleman",
+    "username": "Daelin"
+  },
+  {
+    "id": 6,
+    "firstName": "Derick",
+    "lastName": "Kemp",
+    "username": "Derick"
+  },
+  {
+    "id": 7,
+    "firstName": "Francois",
+    "lastName": "Greeff",
+    "username": "Francois"
+  },
+  {
+    "id": 8,
+    "firstName": "Itumeleng",
+    "lastName": "Phale",
+    "username": "Itumeleng"
+  },
+  {
+    "id": 9,
+    "firstName": "Lihle",
+    "lastName": "Zwane",
+    "username": "Lihle"
+  },
+  {
+    "id": 10,
+    "firstName": "Morongwa",
+    "lastName": "Mabje",
+    "username": "Morongwa"
+  },
+  {
+    "id": 11,
+    "firstName": "Muhammed",
+    "lastName": "Akoojee",
+    "username": "Moe"
+  },
+  {
+    "id": 12,
+    "firstName": "Tebogo",
+    "lastName": "Nomnqa",
+    "username": "Tebogo"
+  },
+  {
+    "id": 13,
+    "firstName": "Tieho",
+    "lastName": "Ramphore",
+    "username": "Tieho"
+  },
+  {
+    "id": 14,
+    "firstName": "Tsepo",
+    "lastName": "Morafo",
+    "username": "Tsepo"
+  }
+]

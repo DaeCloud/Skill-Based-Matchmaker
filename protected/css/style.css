@@ -1,0 +1,14 @@
+.resetText {
+    color: gray !important;
+    font-size: 12px;
+    margin-left: 1em;
+}
+
+.resetText:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#reshuffle {
+    font-size: 14px;
+}
